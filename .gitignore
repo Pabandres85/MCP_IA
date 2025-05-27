@@ -1,7 +1,9 @@
 # Entornos virtuales
 venv/
 .env/
-*.env
+.env
+!.env.example
+
 
 # Archivos de configuración sensibles
 .env
