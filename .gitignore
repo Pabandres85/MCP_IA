@@ -1,0 +1,47 @@
+# Entornos virtuales
+venv/
+.env/
+*.env
+
+# Archivos de configuración sensibles
+.env
+*.env.*
+
+# Logs, CSVs, y archivos temporales
+*.log
+*.csv
+*.sqlite3
+*.db
+*.pid
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+
+# Carpetas de caché o entornos
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Archivos generados o temporales
+*.pdf
+*.zip
+*.tar.gz
+
+# Archivos y carpetas de VSCode
+.vscode/
+*.code-workspace
+
+# Archivos de configuración y rendimiento del sistema
+app/data/logs/*.json
+app/data/logs/*.csv
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Supervisord logs
+supervisord.log
+supervisord.pid
