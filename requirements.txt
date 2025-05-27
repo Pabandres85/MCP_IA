@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+requests
+plotly
+pandas
+python-telegram-bot==20.3
+supervisor
+reportlab

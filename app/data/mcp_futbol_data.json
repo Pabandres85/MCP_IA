@@ -1,0 +1,119 @@
+{
+  "respuestas_personalizadas": {
+    "pablo": "🧑‍💻 Pablo Andres es mi creador, un ingeniero de software especializado en IA. ¡Es el genio detrás de este bot de fútbol! 🚀",
+    "creador": "🧑‍💻 Mi creador es Pablo Andres, ingeniero de software especializado en IA.",
+    "quien te hizo": "🧑‍💻 Fui creado por Pablo Andres, ingeniero de software especializado en IA.",
+    "hola pablo": "👋 ¡Hola Pablo Andres! ¡Qué honor que mi creador esté aquí! ¿Cómo está funcionando el bot? 🤖⚽",
+    "como funciona": "🤖 Funciono con IA local usando LM Studio y Mistral, consumo APIs de fútbol en tiempo real.",
+    "felicidades": "🎉 ¡Gracias! extenderé las felicitaciones a Pablo Andres.",
+    "guarnizo": "Es un gran Mecánico dental, cuñado de mi creador, Pablo Andres.",
+    "julieth": "Es una excelente psicóloga, esposa de mi creador, Pablo Andres.",
+    "carmen": "Es una gran madre, abuela y esposa de mi creador, Pablo Andres.",
+    "hola": "👋 ¡Hola! Soy tu bot de fútbol personalizado. ¿En qué puedo ayudarte hoy?\n\n💡 Puedes preguntarme sobre:\n• Equipos específicos\n• Próximos partidos\n• Análisis de ligas\n• Predicciones",
+    "hi": "👋 Hi! I'm your football bot. How can I help you today?\n\n⚽ Try asking about teams, matches, or leagues!",
+    "buenas": "👋 ¡Buenas! ¿Qué tal? Soy tu asistente de fútbol.",
+    "buenos días": "🌅 ¡Buenos días! Espero que tengas un gran día lleno de fútbol.",
+    "buenas tardes": "🌇 ¡Buenas tardes! ¿Listo para hablar de fútbol?",
+    "buenas noches": "🌙 ¡Buenas noches! Perfecto momento para revisar resultados o planear los partidos de mañana.",
+    "como estas": "😊 ¡Muy bien, gracias por preguntar! Listo para analizar todo el fútbol que quieras.",
+    "cómo estás": "😊 ¡Excelente! Aquí procesando datos de fútbol en tiempo real.",
+    "que tal": "👍 ¡Todo perfecto! Con ganas de hablar de fútbol contigo.",
+    "hey": "👋 ¡Hey! ¿Vienes por análisis de fútbol?",
+    "saludos": "👋 ¡Saludos! Un placer tenerte aquí."
+  },
+  "leagues": {
+    "La Liga 🇪🇸": "PD",
+    "Premier League 🏴": "PL",
+    "Serie A 🇮🇹": "SA",
+    "Bundesliga 🇩🇪": "BL1",
+    "Brasileirao 🇧🇷": "BSA",
+    "Ligue 1 🇫🇷": "FL1"
+  },
+  "league_context": {
+    "PD": "La Liga española es una de las ligas más competitivas del mundo, con el Real Madrid (15 Champions League) y el Barcelona como favoritos históricos. También destacan Atlético Madrid, Sevilla y Real Sociedad.",
+    "PL": "La Premier League inglesa se caracteriza por su intensidad física y equipos muy equilibrados. Manchester City ha dominado recientemente, pero Liverpool, Arsenal y Manchester United siempre compiten al máximo nivel.",
+    "SA": "La Serie A italiana es conocida por su táctica defensiva y equipos históricos como Juventus (36 títulos), Inter de Milán, AC Milan y el actual campeón Napoli.",
+    "BL1": "La Bundesliga alemana ha sido liderada históricamente por el Bayern Múnich (33 títulos), pero equipos como Borussia Dortmund y RB Leipzig ofrecen gran competencia.",
+    "BSA": "El Brasileirao es una de las ligas más competitivas de Sudamérica, con gran talento joven. Flamengo, Palmeiras y Corinthians son los equipos más exitosos.",
+    "FL1": "La Ligue 1 francesa ha sido dominada por el PSG en los últimos años, pero equipos tradicionales como Marseille, Lyon y Monaco mantienen la competencia."
+  },
+  "equipos_ligas": {
+    "real madrid": {"liga": "PD", "nombre_oficial": "Real Madrid CF", "alias": ["madrid", "real", "merengues"]},
+    "barcelona": {"liga": "PD", "nombre_oficial": "FC Barcelona", "alias": ["barca", "barça", "azulgrana", "culés"]},
+    "atletico madrid": {"liga": "PD", "nombre_oficial": "Atlético de Madrid", "alias": ["atletico", "atleti", "colchoneros"]},
+    "sevilla": {"liga": "PD", "nombre_oficial": "Sevilla FC", "alias": ["sevillistas"]},
+    "valencia": {"liga": "PD", "nombre_oficial": "Valencia CF", "alias": ["che"]},
+    "real sociedad": {"liga": "PD", "nombre_oficial": "Real Sociedad", "alias": ["sociedad", "txuri-urdin"]},
+    "villarreal": {"liga": "PD", "nombre_oficial": "Villarreal CF", "alias": ["submarino amarillo"]},
+    "athletic bilbao": {"liga": "PD", "nombre_oficial": "Athletic Club", "alias": ["athletic", "bilbao", "leones"]},
+    "manchester city": {"liga": "PL", "nombre_oficial": "Manchester City FC", "alias": ["city", "citizens", "sky blues"]},
+    "manchester united": {"liga": "PL", "nombre_oficial": "Manchester United FC", "alias": ["united", "red devils", "diablos rojos"]},
+    "liverpool": {"liga": "PL", "nombre_oficial": "Liverpool FC", "alias": ["reds", "anfield"]},
+    "arsenal": {"liga": "PL", "nombre_oficial": "Arsenal FC", "alias": ["gunners", "emiratos"]},
+    "chelsea": {"liga": "PL", "nombre_oficial": "Chelsea FC", "alias": ["blues", "stamford bridge"]},
+    "tottenham": {"liga": "PL", "nombre_oficial": "Tottenham Hotspur FC", "alias": ["spurs", "lilywhites"]},
+    "newcastle": {"liga": "PL", "nombre_oficial": "Newcastle United FC", "alias": ["magpies", "toon"]},
+    "aston villa": {"liga": "PL", "nombre_oficial": "Aston Villa FC", "alias": ["villa", "villans"]},
+    "juventus": {"liga": "SA", "nombre_oficial": "Juventus FC", "alias": ["juve", "bianconeri", "vecchia signora"]},
+    "inter": {"liga": "SA", "nombre_oficial": "Inter Milan", "alias": ["inter milan", "nerazzurri", "internazionale"]},
+    "milan": {"liga": "SA", "nombre_oficial": "AC Milan", "alias": ["ac milan", "rossoneri", "diavolo"]},
+    "napoli": {"liga": "SA", "nombre_oficial": "SSC Napoli", "alias": ["azzurri", "partenopei"]},
+    "roma": {"liga": "SA", "nombre_oficial": "AS Roma", "alias": ["giallorossi", "magica"]},
+    "lazio": {"liga": "SA", "nombre_oficial": "SS Lazio", "alias": ["biancocelesti", "aquile"]},
+    "atalanta": {"liga": "SA", "nombre_oficial": "Atalanta BC", "alias": ["dea", "nerazzurri bergamaschi"]},
+    "bayern munich": {"liga": "BL1", "nombre_oficial": "FC Bayern München", "alias": ["bayern", "bavaria", "rot"]},
+    "borussia dortmund": {"liga": "BL1", "nombre_oficial": "Borussia Dortmund", "alias": ["dortmund", "bvb", "borussen"]},
+    "rb leipzig": {"liga": "BL1", "nombre_oficial": "RB Leipzig", "alias": ["leipzig", "red bulls"]},
+    "bayer leverkusen": {"liga": "BL1", "nombre_oficial": "Bayer 04 Leverkusen", "alias": ["leverkusen", "aspirinas"]},
+    "eintracht frankfurt": {"liga": "BL1", "nombre_oficial": "Eintracht Frankfurt", "alias": ["frankfurt", "adler"]},
+    "flamengo": {"liga": "BSA", "nombre_oficial": "CR Flamengo", "alias": ["mengão", "rubro-negro"]},
+    "palmeiras": {"liga": "BSA", "nombre_oficial": "SE Palmeiras", "alias": ["verdão", "porco"]},
+    "corinthians": {"liga": "BSA", "nombre_oficial": "SC Corinthians", "alias": ["timão", "alvinegro"]},
+    "santos": {"liga": "BSA", "nombre_oficial": "Santos FC", "alias": ["peixe", "alvinegro praiano"]},
+    "psg": {"liga": "FL1", "nombre_oficial": "Paris Saint-Germain", "alias": ["paris", "parisiens"]},
+    "marseille": {"liga": "FL1", "nombre_oficial": "Olympique de Marseille", "alias": ["om", "olympique"]},
+    "lyon": {"liga": "FL1", "nombre_oficial": "Olympique Lyonnais", "alias": ["ol", "gones"]},
+    "monaco": {"liga": "FL1", "nombre_oficial": "AS Monaco", "alias": ["principado"]}
+  },
+  "palabras_futbol": [
+    "partido", "partidos", "próximo", "proximo", "siguiente", "cuando juega",
+    "resultado", "resultados", "como esta", "cómo está", "análisis", "analisis",
+    "predicción", "prediccion", "quien gana", "quién gana", "probabilidad",
+    "estadística", "estadisticas", "forma", "temporada", "liga", "champions",
+    "vs", "contra", "enfrentan", "clasificación", "clasificacion", "tabla",
+    "goles", "marcador", "victoria", "derrota", "empate"
+  ],
+  "prompts": {
+    "prediccion":
+      "Eres un analista deportivo experto creado por Pablo Andres.\n\nUsuario pregunta: \"{user_input}\"\nFecha actual: {fecha_actual}\n\nInstrucciones específicas:\n1. Si tienes datos reales de los equipos mencionados, úsalos para fundamentar tu predicción\n2. Si NO tienes datos específicos, sé honesto y menciona que necesitas más información\n3. Nunca inventes resultados, fechas o estadísticas específicas\n4. Proporciona un análisis balanceado considerando múltiples factores\n5. Usa probabilidades aproximadas (ejemplo: \"60% probabilidad\") solo si tienes base real\n6. Mantén un tono profesional pero accesible\n\nEstructura tu respuesta así:\n📊 **Análisis:**\n[Tu análisis basado en datos disponibles]\n\n🔮 **Predicción:**\n[Tu predicción fundamentada]\n\n⚠️ **Nota:** [Si no tienes datos específicos, mencionarlo aquí]",
+    "analisis":
+      "Eres un analista deportivo experto creado por Pablo Andres.\n\nUsuario pregunta: \"{user_input}\"\nFecha actual: {fecha_actual}\n\nInstrucciones:\n1. Proporciona un análisis detallado y objetivo\n2. Si tienes datos reales, úsalos; si no, sé claro al respecto\n3. Incluye aspectos tácticos, de forma y contexto\n4. Mantén un equilibrio entre lo técnico y lo accesible\n5. No inventes estadísticas específicas\n\nEstructura:\n🔍 **Situación Actual:**\n[Análisis de la situación presente]\n\n📈 **Puntos Clave:**\n[Aspectos más importantes a considerar]\n\n💡 **Conclusión:**\n[Tu evaluación general]",
+    "comparacion":
+      "Eres un analista deportivo experto creado por Pablo Andres.\n\nUsuario pregunta: \"{user_input}\"\nFecha actual: {fecha_actual}\n\nInstrucciones para comparación:\n1. Compara de manera objetiva y equilibrada\n2. Considera múltiples aspectos: forma, historia, tácticas, etc.\n3. Si no tienes datos específicos, usa conocimiento general del fútbol\n4. Evita sesgos hacia equipos específicos\n5. Proporciona una conclusión clara pero matizada\n\nEstructura:\n⚔️ **Comparación:**\n[Análisis comparativo detallado]\n\n📊 **Fortalezas y Debilidades:**\n[De cada equipo/aspecto comparado]\n\n🎯 **Veredicto:**\n[Tu conclusión fundamentada]",
+    "proximos":
+      "Eres un experto en fútbol creado por Pablo Andres.\n\nUsuario pregunta: \"{user_input}\"\nFecha actual: {fecha_actual}\n\nInstrucciones para próximos partidos:\n1. Si tienes datos específicos de próximos partidos, úsalos\n2. Si NO tienes fechas específicas, NO las inventes\n3. Proporciona contexto útil sobre los equipos\n4. Incluye factores relevantes para los próximos encuentros\n5. Sé honesto sobre las limitaciones de información\n\nEstructura:\n📅 **Próximos Encuentros:**\n[Solo información real disponible]\n\n🎯 **Factores Clave:**\n[Aspectos importantes a considerar]\n\n💡 **Recomendación:**\n[Tu consejo o análisis general]",
+    "general":
+      "Eres un experto en fútbol creado por Pablo Andres, ingeniero de software especializado en IA.\n\nUsuario pregunta: \"{user_input}\"\nFecha actual: {fecha_actual}\n\nPrincipios fundamentales:\n1. Responde con conocimiento real del fútbol\n2. Si no sabes algo específico, admítelo honestamente\n3. Nunca inventes fechas, resultados o estadísticas\n4. Mantén un tono profesional pero amigable\n5. Si la pregunta no es sobre fútbol, reconoce tu especialización\n\nProporciona una respuesta útil, precisa y bien estructurada.",
+    "liga":
+      "Eres un analista deportivo experto creado por Pablo Andres.\n\nTAREA: Analizar la situación actual de {liga_nombre}\nFecha actual: {fecha_actual}\n\nINSTRUCCIONES:\n1. Usa EXCLUSIVAMENTE los datos reales proporcionados\n2. NO inventes fechas, resultados o estadísticas\n3. Analiza tendencias basándote solo en la información disponible\n4. Si los datos son limitados, menciónalo claramente\n5. Proporciona predicciones fundamentadas en los datos reales\n\nESTRUCTURA REQUERIDA:\n🏆 **Situación Actual de {liga_nombre}:**\n[Análisis basado en datos reales]\n\n📅 **Próximos Partidos Destacados:**\n[Solo partidos con fechas reales del contexto]\n\n📊 **Resultados Recientes:**\n[Solo resultados reales proporcionados]\n\n🔮 **Tendencias y Predicciones:**\n[Basadas únicamente en los datos disponibles]\n\n⚠️ **Limitaciones:**\n[Mencionar si los datos son limitados]\n\nDATOS DISPONIBLES:\n{contexto_datos}",
+    "equipo":
+      "Eres un analista deportivo experto creado por Pablo Andres.\n\nCONSULTA DEL USUARIO: \"{user_input}\"\nEQUIPO: {equipo_nombre}\nFecha actual: {fecha_actual}\n\nINSTRUCCIONES:\n1. {enfoque}\n2. Usa SOLO los datos reales proporcionados sobre el equipo\n3. NO inventes estadísticas o fechas específicas\n4. Analiza la forma reciente basándote en resultados reales\n5. Si los datos son insuficientes, sé transparente al respecto\n\nCONTEXTO DEL EQUIPO:\n{contexto_equipo}\n\nProporciona un análisis profesional y bien estructurado.",
+    "revisor": 
+      "Actúa como un experto revisor de respuestas de IA sobre fútbol. Evalúa la siguiente respuesta del bot según los criterios:\n\n1. ¿La respuesta está fundamentada en los datos proporcionados/contexto?\n2. ¿Evita inventar estadísticas, fechas o resultados?\n3. ¿Mantiene un tono profesional, imparcial y adecuado?\n4. ¿La respuesta es clara, útil y responde la consulta del usuario?\n\nCalifica la respuesta como:\n- APROBADA: Si cumple con todo lo anterior\n- CORREGIBLE: Si requiere ajustes menores (explica cuáles)\n- BLOQUEADA: Si es inventada, incorrecta o fuera de tema (explica el motivo)\n\n---  \nConsulta del usuario: \"{consulta_usuario}\"  \nRespuesta generada por el bot: \"{respuesta_bot}\"\n\nResponde solo con:\n- Veredicto: (APROBADA / CORREGIBLE / BLOQUEADA)\n- Explicación corta\n- (Si aplica) Respuesta corregida o sugerida\n"
+    },
+  
+  "teclado_principal": [
+    ["La Liga 🇪🇸", "Premier League 🏴"],
+    ["Serie A 🇮🇹", "Bundesliga 🇩🇪"],
+    ["Brasileirao 🇧🇷", "Ligue 1 🇫🇷"],
+    ["⚽ Ver Equipos", "❓ Ayuda"]
+  ],
+  "ayuda_mensaje": {
+    "bienvenida": "🤖 ¡Bienvenido al Bot de Predicción de Fútbol!\n\n🔬 Creado por Pablo Andres - Ingeniero de Software especializado en IA\n📊 Datos reales en tiempo real de APIs oficiales\n🧠 IA local avanzada para análisis precisos\n\n🎯 ¿Qué puedo hacer?\n⚽ Analizar ligas completas\n🏟️ Información específica de equipos\n📈 Predicciones basadas en datos reales\n📊 Estadísticas detalladas\n\n💡 Ejemplos de consultas:\n• Real Madrid próximos partidos\n• Liverpool forma reciente\n• Análisis Manchester City\n\n👇 Selecciona una liga o pregúntame directamente:",
+    "equipos": "⚽ Equipos disponibles para análisis:\n\n🇪🇸 La Liga:\n• Real Madrid • FC Barcelona\n• Atlético Madrid • Sevilla FC\n• Valencia CF • Real Sociedad\n• Villarreal CF • Athletic Bilbao\n\n🏴 Premier League:\n• Manchester City • Manchester United\n• Liverpool • Arsenal\n• Chelsea • Tottenham\n• Newcastle • Aston Villa\n\n🇮🇹 Serie A:\n• Juventus • Inter Milan\n• AC Milan • Napoli\n• AS Roma • SS Lazio\n• Atalanta\n\n🇩🇪 Bundesliga:\n• Bayern München • Borussia Dortmund\n• RB Leipzig • Bayer Leverkusen\n• Eintracht Frankfurt\n\n🇧🇷 Brasileirao:\n• Flamengo • Palmeiras\n• Corinthians • Santos\n\n🇫🇷 Ligue 1:\n• PSG • Olympique Marseille\n• Olympique Lyonnais • AS Monaco\n\n💡 Ejemplos de consultas:\n• 'Real Madrid próximos partidos'\n• 'Liverpool resultados recientes'\n• 'Manchester City análisis'\n• '¿Quién ganará Bayern vs Dortmund?'\n\n🎯 Tip: También puedes usar alias como:\nBarça, Atleti, City, United, Juve, Inter, etc.",
+    "ayuda": "📚 Centro de Ayuda - Bot de Fútbol\n\n🎯 Funciones principales:\n🏆 Análisis de Ligas\n⚽ Consultas de Equipos\n🧠 IA Conversacional\n📱 Comandos disponibles:\n• /start - Menú principal\n• /equipos - Lista de equipos\n• /help - Esta ayuda\n• /stats - Estadísticas del bot\n\n👇 Selecciona una opción para más detalles:",
+    "tipos_analisis": "📊 Tipos de Análisis Disponibles:\n\n🏆 Análisis de Liga Completa\n• Próximos partidos destacados\n• Resultados recientes importantes\n• Tendencias y predicciones\n• Contexto histórico de la liga\n\n⚽ Análisis de Equipo Específico\n• Próximos 4 partidos programados\n• Últimos 6 resultados con estadísticas\n• Forma actual (V-E-D)\n• Promedio de goles a favor/contra\n• Evaluación de estado de forma\n\n🔮 Predicciones Inteligentes\n• Análisis basado en forma reciente\n• Comparación head-to-head\n• Factores como localía/visitante\n• Recomendaciones de apuestas\n\n📈 Estadísticas Avanzadas\n• Porcentaje de victorias\n• Eficiencia ofensiva/defensiva\n• Rendimiento local vs visitante",
+    "ejemplos": "💡 Ejemplos de Consultas:\n\n🎯 Consultas Específicas:\n• 'Real Madrid próximos partidos'\n• 'Barcelona forma reciente'\n• 'Manchester City estadísticas'\n• 'Análisis del Liverpool'\n\n🔮 Predicciones:\n• '¿Quién ganará Real Madrid vs Barcelona?'\n• 'Probabilidades Manchester City vs Liverpool'\n• 'Predicción Juventus vs Inter'\n\n📊 Consultas Generales:\n• 'Situación actual de La Liga'\n• 'Mejores equipos de la Premier League'\n• 'Favoritos para ganar la Champions'\n\n❓ Preguntas Abiertas:\n• '¿Cómo está jugando Mbappé?'\n• 'Análisis del último Clásico'\n• '¿Qué opinas del mercado de fichajes?'",
+    "about": "🤖 Sobre este Bot\n\n👨‍💻 Creador: Pablo Andres\n🎓 Ingeniero de Software especializado en IA\n\n🔬 Tecnología:\n• IA Local con LM Studio + Mistral\n• APIs oficiales de fútbol en tiempo real\n• Cache inteligente para optimización\n• Procesamiento de lenguaje natural\n\n🎯 Características:\n• Datos 100% reales y actualizados\n• Análisis predictivo avanzado\n• Soporte para múltiples ligas\n• Respuestas conversacionales\n\n🚀 Versión: 2.0 - Diciembre 2024\n📧 Contacto: A través de consultas al bot\n\n💡 ¿Sugerencias? ¡Compártelas conmigo!"
+  }
+}
